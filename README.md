@@ -1,6 +1,6 @@
 # Shorts
 
-##Project Proposal
+## Project Proposal
 
 **Problem:** Time is of the biggest importance to humans in our fast-paced society, hence it is crucial that the items he/she consumes are likewise time-efficient. People these days have a relatively short attention span, so we attempt to make the most of the little extra time that we have. So the question is, how can we encourage the most user interaction given the user's limited attention span?
 
