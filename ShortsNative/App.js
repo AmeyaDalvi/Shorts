@@ -7,46 +7,36 @@
  */
 
 import React from 'react';
-// import type {Node} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  // useColorScheme,
-  StatusBar,
-  View,
-} from 'react-native';
-
-// import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {StyleSheet, StatusBar, View} from 'react-native';
+import MainNavigator from './src/navigation/MainNavigator';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View style={styles.sectionContainer}>
-        <Text>Hello Ameya</Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.safeAreaViewcontainer}>
+      <StatusBar barStyle="dark-content" backgroundColor="black" />
+      <MainNavigator />
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
+  safeAreaViewcontainer: {
+    flex: 1,
     backgroundColor: 'white',
-    color: 'white',
+  },
+  sectionContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white',
     marginTop: 32,
     paddingHorizontal: 24,
   },
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
   },
   highlight: {
     fontWeight: '700',

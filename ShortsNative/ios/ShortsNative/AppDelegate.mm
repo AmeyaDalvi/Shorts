@@ -13,6 +13,7 @@
 #import <React/RCTSurfacePresenter.h>
 #import <React/RCTSurfacePresenterBridgeAdapter.h>
 #import <ReactCommon/RCTTurboModuleManager.h>
+#import <React/REAModule.h>
 
 #import <react/config/ReactNativeConfig.h>
 
@@ -41,6 +42,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   _contextContainer->insert("ReactNativeConfig", _reactNativeConfig);
   _bridgeAdapter = [[RCTSurfacePresenterBridgeAdapter alloc] initWithBridge:bridge contextContainer:_contextContainer];
   bridge.surfacePresenter = _bridgeAdapter.surfacePresenter;
+  [bridge moduleForClass:[REAModule class]];
 #endif
 
   NSDictionary *initProps = [self prepareInitialProps];
