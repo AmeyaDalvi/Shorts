@@ -35,6 +35,7 @@ local.properties
 # node.js
 #
 node_modules/
+src/api/API.js
 npm-debug.log
 yarn-error.log
 
