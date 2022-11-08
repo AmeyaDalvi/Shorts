@@ -153,6 +153,10 @@ export const SubCard = () => {
     var date = item.published_date;
     var author = item.author;
     var summary = item.summary;
+    media === ''
+      ? (media =
+          'https://www.statecollege.com/wp-content/uploads/2020/12/news-placeholder.jpg')
+      : media;
     return (
       <TouchableOpacity
         onPress={() =>
@@ -169,8 +173,8 @@ export const SubCard = () => {
               {title}
             </Text>
             <View style={styles.subHeading}>
-              <Text>Author: {author}</Text>
-              <Text>Date: {date}</Text>
+              <Text>{author}</Text>
+              <Text>{new Date(date).toLocaleDateString()}</Text>
             </View>
           </View>
         </View>

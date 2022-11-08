@@ -51,7 +51,7 @@ export const MainCard = () => {
 
   const renderItem = ({item, index}) => {
     var title = item.title;
-    var media = item.media;
+    let media = item.media;
     var author = item.author;
     var summary = item.summary;
     var date = item.published_date;
@@ -117,8 +117,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     marginHorizontal: 20,
     marginVertical: 10,
-    borderColor: 'black',
-    borderWidth: 1,
     paddingVertical: 100,
     marginBottom: 10,
     backgroundColor: 'rgba(0,0,0,0.5)',
@@ -129,7 +127,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     borderRadius: 20,
     height: 200,
-    opacity: 0.4,
+    opacity: 0.6,
     Radius: 20,
     width: 320,
   },
@@ -143,8 +141,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     color: '#fff',
+    textShadowRadius: 3,
     textShadowColor: 'black',
-    textShadowOffset: {width: 2, height: 10},
+    textShadowOffset: {width: 1.5, height: 1.5},
   },
   newsHeadlineTextWrapper: {
     position: 'absolute',

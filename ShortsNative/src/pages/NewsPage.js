@@ -55,6 +55,7 @@ export const NewsPage = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
   },
   headingText: {
     fontSize: 24,
@@ -77,6 +78,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgb(230, 230, 230)',
     marginBottom: 5,
     borderRadius: 15,
+    shadowColor: '#000',
+    shadowOpacity: 0.5,
+    shadowOffset: {width: 1, height: 1},
   },
   headingTextWrapper: {
     alignSelf: 'center',

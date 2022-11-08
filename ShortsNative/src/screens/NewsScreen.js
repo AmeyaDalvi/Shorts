@@ -23,7 +23,7 @@ export const NewsScreen = props => {
   return (
     <View style={styles.container}>
       <View style={styles.headingTextWrapper}>
-        <Text style={styles.headingText}>{title}</Text>
+        <Text style={styles.headingText}>News on "{title}"</Text>
       </View>
       <TouchableOpacity
         style={styles.buttonWrapper}
