@@ -38,8 +38,19 @@
 <br>
 
 <p align=center>
+<img src= "./ShortsNative/assets/news_page.png"/>
+
+</p>
+
+<p align=center>
 <img src= "./ShortsNative/assets/voice_search.png"/>
 </p>
+<p align=center><b>News Page</b></p>
+
+<br>
+<br>
+<br>
+<br>
 
 <p align=center><b>Voice activated Search</b></p>
 

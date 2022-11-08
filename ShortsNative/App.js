@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {StyleSheet, StatusBar, View} from 'react-native';
+import {StyleSheet, StatusBar, View, SafeAreaView} from 'react-native';
 import MainNavigator from './src/navigation/MainNavigator';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's

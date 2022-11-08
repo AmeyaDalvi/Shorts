@@ -1,14 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet, StatusBar, ScrollView} from 'react-native';
-import {VoiceSearch} from '../voice_search/VoiceSearch';
-import {MainCard} from '../news-cards/MainCard';
+import {View, Text, StyleSheet} from 'react-native';
+import {Search} from '../voice_search/Search';
 import {SubCard} from '../news-cards/SubCard';
 
-export const HomeScreen = () => {
+export const HomeScreen = props => {
   return (
     <View style={styles.homeContainer}>
       <Text style={styles.headingText}>Shorts</Text>
-      <VoiceSearch />
+      <Search />
       <SubCard />
     </View>
   );
@@ -18,9 +17,7 @@ const styles = StyleSheet.create({
   homeContainer: {
     flex: 1,
     alignSelf: 'center',
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    // backgroundColor: 'white',
+    backgroundColor: 'white',
   },
   headingText: {
     borderBottomWidth: 1,
@@ -29,11 +26,17 @@ const styles = StyleSheet.create({
     paddingLeft: 20,
     paddingTop: 50,
     paddingBottom: 10,
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  newsTopic: {
+    paddingRight: 250,
+    paddingLeft: 20,
+    paddingTop: 10,
+    paddingBottom: 10,
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
-    fontSize: 24,
-    // color: '#fff',
+    fontSize: 18,
     fontWeight: 'bold',
-    // backgroundColor: '#000',
   },
 });
