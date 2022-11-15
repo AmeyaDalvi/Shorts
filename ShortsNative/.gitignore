@@ -33,7 +33,7 @@ local.properties
 .cxx/
 
 # api
-src/api/
+src/apis/
 
 # node.js
 #

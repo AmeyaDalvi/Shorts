@@ -9,7 +9,7 @@ import {
   View,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import {API_URL, API_TOKEN} from '../api/API';
+import {API_URL, API_TOKEN} from '../apis/API';
 import axios from 'axios';
 
 export const NewsCardList = ({heading}) => {

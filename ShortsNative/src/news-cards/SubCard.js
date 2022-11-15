@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {MainCard} from './MainCard';
 import {useNavigation} from '@react-navigation/native';
-import {API_URL, API_TOKEN} from '../api/API';
+import {API_URL, API_TOKEN} from '../apis/API';
 import axios from 'axios';
 
 export const SubCard = () => {
