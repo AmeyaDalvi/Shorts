@@ -6,6 +6,13 @@
 
 **Solution:** It is crucial that our apps operate quickly in this fast-paced environment. The user could make the most of his time if he could access the most information in the shortest amount of time possible. And so I have come up with an application called - **Shorts**. It’s aimed at people who love to stay updated with the current news but struggle to find some wiggle room to watch their favorite news channels or the ones who don’t really like reading the newspaper but prefer getting their daily dose of the news from online resources or for people who want to inculcate a new habit of reading news, this application is the perfect place. The app provides news of a variety of categories in form of a brief descriptive <b>summary</b> of each news. Cutting through all the unnecessary noise that is usually included in online news articles, this app aims to serve you only the important content and save you your time.
 
+
+## Demo
+
+
+https://user-images.githubusercontent.com/50326522/202809308-6cf5067e-53a6-44a6-97a0-34462ffe5cee.mp4 
+
+
 ## Tech Stack and API
 
 - **React Native:** React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
