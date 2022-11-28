@@ -14,7 +14,7 @@
 ## UI Wireframing
 
 <p align=center>
-<img src= "./assets/home_page_ui.png"/>
+<img src= "ShortsNative/assets/home_page_ui.png"/>
 </p>
 <p align=center><b>Home Page</b></p>
 
@@ -24,7 +24,7 @@
 <br>
 
 <p align=center>
-<img src= "./assets/textual_search.png"> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>
+<img src= "ShortsNative/assets/textual_search.png"> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>
 
 </p>
 
@@ -38,12 +38,12 @@
 <br>
 
 <p align=center>
-<img src= "./assets/news_page.png"/>
+<img src= "ShortsNative/assets/news_page.png"/>
 
 </p>
 
 <p align=center>
-<img src= "./assets/voice_search.png"/>
+<img src= "ShortsNative/assets/voice_search.png"/>
 </p>
 <p align=center><b>News Page</b></p>
 
@@ -60,7 +60,7 @@
 
 <br>
 <p align=center>
-<img src= "./assets/HomePage.png" style="width: 200px;"/>
+<img src= "ShortsNative/assets/HomePage.png" style="width: 200px;"/>
 </p>
 <p align=center><b>Home Page</b></p>
 
@@ -70,7 +70,7 @@
 <br>
 
 <p align=center>
-<img src= "./assets/KeywordSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "./assets/KeySearchResult.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "./assets/ChessPage.png" style="width: 200px;"/> <br> News Page
+<img src= "ShortsNative/assets/KeywordSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "ShortsNative/assets/KeySearchResult.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "ShortsNative/assets/ChessPage.png" style="width: 200px;"/> <br> News Page
 
 </p>
 
@@ -84,7 +84,7 @@
 <br>
 
 <p align=center>
-<img src= "./assets/VoiceSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "./assets/EM.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "./assets/EmNewspage.png" style="width: 200px;"/> <br> News Page
+<img src= "ShortsNative/assets/VoiceSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "ShortsNative/assets/EM.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "ShortsNative/assets/EmNewspage.png" style="width: 200px;"/> <br> News Page
 
 </p>
 
