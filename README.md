@@ -91,7 +91,7 @@ https://user-images.githubusercontent.com/50326522/202809308-6cf5067e-53a6-44a6-
 <br>
 
 <p align=center>
-<img src= "ShortsNative/assets/VoiceSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "ShortsNative/assets/EM.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "ShortsNative/assets/EmNewspage.png" style="width: 200px;"/> <br> News Page
+<img src= "ShortsNative/assets/VoiceSearch.png" style="width: 200px;"> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <img src= "ShortsNative/assets/EM.png" style="width: 200px;"/> &nbsp <br>Search Bar  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Search Result</img>  <br><br> <img src= "ShortsNative/assets/EMNewspage.png" style="width: 200px;"/> <br> News Page
 
 </p>
 
